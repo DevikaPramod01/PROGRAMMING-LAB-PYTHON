@@ -1,4 +1,4 @@
-value=int(input("total num"))
+value=int(input("total number"))
 a=[]
 for i in range(value):
     num=int(input("enter integers"))
