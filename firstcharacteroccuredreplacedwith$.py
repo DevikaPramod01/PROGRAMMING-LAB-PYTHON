@@ -1,5 +1,4 @@
-text=input("enter a string")
-a=text[0]
-text=text.replace(a,'$')
-text=a+text[1:]
-print("the new text with replaced character",text)
+string = input("Type a string : ")
+char = string[0]
+string = string.replace(char,'$')
+print("the new text with replaced character",char+string[1:])
