@@ -1,14 +1,12 @@
-dict1={}
-n=int(input("enter the no of items"))
+d1={}
+n=int(input("Enter No of Elements in Dictionary : "))
 for i in range(n):
-    key=input("enter key")
-    value=input("enter value")
-    dict1[key]=value
+	key=input("\nEnter the Key : ")
+	value=input("Enter the Value : ")
+	d1[key]=value
+print(f"Dict:{d1}")
+a_dict=sorted(d1.items(),reverse=0)
+d_dict=sorted(d1.items(),reverse=1)
 
-l=list(dict1.items())   #convert the given dict. into list
-l.sort()                #sort the list
-print("the sorted dictionay by keys:")
-print("Ascending order is",l)
-l=list(dict1.items())
-l.sort(reverse=True)    #sort in reverse order
-print("Descending order is",l)
+print("\nAscending Order : ",dict(a_dict))
+print("\nDescending Order : ",dict(d_dict))
