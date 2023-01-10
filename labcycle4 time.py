@@ -16,9 +16,9 @@ class Time:
             minute+=1
             second=second%60
         return Time(hour,minute,second)
+    
     def view_time(self):
-        print(self._hour,":",self._minute,":",self._second)
-        
+        print(self._hour,":",self._minute,":",self._second)        
 t1=[int(i) for i in input("enter time1 ").split(":")]
 t2=[int(i) for i in input("enter time2 ").split(":")]
 
