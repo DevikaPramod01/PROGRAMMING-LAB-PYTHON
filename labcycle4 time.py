@@ -4,7 +4,7 @@ class Time:
         self._minute=minute
         self._second=second
     def __add__(self,other):
-        hour=self._hour+other._minute
+        hour=self._hour+other._hour
         if hour>=24:
             hour=hour%24
         minute=self._minute+other._minute
