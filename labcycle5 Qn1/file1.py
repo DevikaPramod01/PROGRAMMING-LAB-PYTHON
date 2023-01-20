@@ -1,0 +1,6 @@
+f= open("readfile.txt","r")
+#fr= f.read()
+#fr = fr.splitlines()
+fr = f.readlines()
+print(fr)
+f.close()
