@@ -1,0 +1,5 @@
+f=open("file1.txt","r")
+fr=f.read()
+fr=fr.splitlines()
+print(fr)
+f.close()

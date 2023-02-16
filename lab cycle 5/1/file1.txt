@@ -1,0 +1,4 @@
+line 1 to read and write
+line 2 to read and write
+line 3 to read and write
+line 4 to read and write
